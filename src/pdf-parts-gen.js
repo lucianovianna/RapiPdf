@@ -167,7 +167,7 @@ function getParameterTableDef(parameters, paramType, localize, includeExample = 
   }
 
   return [
-    { text: `${paramType} ${localize.parameters}`.toUpperCase(), style: ['small', 'b'], margin: [0, 10, 0, 0] },
+    { text: `${localize.parameters} DE ${paramType}`.toUpperCase(), style: ['small', 'b'], margin: [0, 10, 0, 0] },
     {
       table: {
         headerRows: 1,

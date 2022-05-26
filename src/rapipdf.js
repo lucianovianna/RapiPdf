@@ -122,7 +122,7 @@ export default customElements.define('rapi-pdf', class RapiPdf extends HTMLEleme
       writeOnly: 'APENAS ESCRITA',
       enumValues: 'ENUM',
       pattern: 'PADRÃO',
-      parameters: 'Parameters',
+      parameters: 'Parâmetros',
       noRequestParameters: 'Nenhum parametro de requisição',
       method: 'MÉTODO',
       ...localizeObj,
