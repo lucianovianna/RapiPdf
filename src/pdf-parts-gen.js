@@ -364,8 +364,8 @@ export function getApiDef(spec, filterPath, schemaStyle, localize, includeExampl
         text: `${tagSeq + 1}.${pathSeq} ${path.method.toUpperCase()} ${path.path}`,
         style: ['topMargin3', 'mono', 'p', 'primary', 'b'],
         tocItem: true,
-        tocStyle: ['small', 'blue', 'mono'],
-        tocNumberStyle: ['small', 'blue', 'mono'],
+        tocStyle: ['small', 'alternate', 'mono'],
+        tocNumberStyle: ['small', 'alternate', 'mono'],
       });
       operationContent.push({ text: '', style: ['topMarginRegular'] });
 
